@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B41463A1C93468700E34E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4146391C93468700E34E39 /* main.m */; };
+		4B41463D1C93468700E34E39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B41463C1C93468700E34E39 /* AppDelegate.m */; };
+		4B4146401C93468700E34E39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B41463F1C93468700E34E39 /* ViewController.m */; };
+		4B4146431C93468700E34E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4146411C93468700E34E39 /* Main.storyboard */; };
+		4B4146451C93468700E34E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4146441C93468700E34E39 /* Assets.xcassets */; };
+		4B4146481C93468700E34E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4146461C93468700E34E39 /* LaunchScreen.storyboard */; };
+		4B41464D1C93468700E34E39 /* WatchDuktape WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4B41464C1C93468700E34E39 /* WatchDuktape WatchKit App.app */; };
+		4B4146531C93468700E34E39 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4146511C93468700E34E39 /* Interface.storyboard */; };
+		4B4146551C93468700E34E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4146541C93468700E34E39 /* Assets.xcassets */; };
+		4B41465C1C93468700E34E39 /* WatchDuktape WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4B41465B1C93468700E34E39 /* WatchDuktape WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4B4146641C93468700E34E39 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4146631C93468700E34E39 /* InterfaceController.m */; };
+		4B4146671C93468700E34E39 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4146661C93468700E34E39 /* ExtensionDelegate.m */; };
+		4B41466A1C93468700E34E39 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4146691C93468700E34E39 /* NotificationController.m */; };
+		4B41466C1C93468700E34E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B41466B1C93468700E34E39 /* Assets.xcassets */; };
+		4B41467E1C93471F00E34E39 /* duktape.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B41467C1C93471F00E34E39 /* duktape.c */; };
+		4B41467F1C93471F00E34E39 /* duktape.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B41467C1C93471F00E34E39 /* duktape.c */; };
+		4B4146811C9347C900E34E39 /* example.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B4146801C9347C900E34E39 /* example.js */; };
+		4B4146821C9347C900E34E39 /* example.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B4146801C9347C900E34E39 /* example.js */; };
+		4B4146851C934F8100E34E39 /* JSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4146841C934F8100E34E39 /* JSManager.m */; };
+		4B4146861C934F8100E34E39 /* JSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4146841C934F8100E34E39 /* JSManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B41464E1C93468700E34E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B41462D1C93468700E34E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B41464B1C93468700E34E39;
+			remoteInfo = "WatchDuktape WatchKit App";
+		};
+		4B41465D1C93468700E34E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B41462D1C93468700E34E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B41465A1C93468700E34E39;
+			remoteInfo = "WatchDuktape WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B4146731C93468700E34E39 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4B41465C1C93468700E34E39 /* WatchDuktape WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4146771C93468700E34E39 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4B41464D1C93468700E34E39 /* WatchDuktape WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B4146351C93468700E34E39 /* WatchDuktape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchDuktape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4146391C93468700E34E39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B41463B1C93468700E34E39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B41463C1C93468700E34E39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B41463E1C93468700E34E39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B41463F1C93468700E34E39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B4146421C93468700E34E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B4146441C93468700E34E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B4146471C93468700E34E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B4146491C93468700E34E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B41464C1C93468700E34E39 /* WatchDuktape WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchDuktape WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4146521C93468700E34E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4B4146541C93468700E34E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B4146561C93468700E34E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B41465B1C93468700E34E39 /* WatchDuktape WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchDuktape WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4146611C93468700E34E39 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4B4146621C93468700E34E39 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		4B4146631C93468700E34E39 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		4B4146651C93468700E34E39 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		4B4146661C93468700E34E39 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		4B4146681C93468700E34E39 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		4B4146691C93468700E34E39 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		4B41466B1C93468700E34E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B41466D1C93468700E34E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B41467B1C93471F00E34E39 /* duk_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = duk_config.h; sourceTree = "<group>"; };
+		4B41467C1C93471F00E34E39 /* duktape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = duktape.c; sourceTree = "<group>"; };
+		4B41467D1C93471F00E34E39 /* duktape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = duktape.h; sourceTree = "<group>"; };
+		4B4146801C9347C900E34E39 /* example.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = example.js; sourceTree = "<group>"; };
+		4B4146831C934F8100E34E39 /* JSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSManager.h; sourceTree = "<group>"; };
+		4B4146841C934F8100E34E39 /* JSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B4146321C93468700E34E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4146581C93468700E34E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B41462C1C93468700E34E39 = {
+			isa = PBXGroup;
+			children = (
+				4B4146371C93468700E34E39 /* WatchDuktape */,
+				4B4146501C93468700E34E39 /* WatchDuktape WatchKit App */,
+				4B41465F1C93468700E34E39 /* WatchDuktape WatchKit Extension */,
+				4B4146361C93468700E34E39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B4146361C93468700E34E39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B4146351C93468700E34E39 /* WatchDuktape.app */,
+				4B41464C1C93468700E34E39 /* WatchDuktape WatchKit App.app */,
+				4B41465B1C93468700E34E39 /* WatchDuktape WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B4146371C93468700E34E39 /* WatchDuktape */ = {
+			isa = PBXGroup;
+			children = (
+				4B41467B1C93471F00E34E39 /* duk_config.h */,
+				4B41467C1C93471F00E34E39 /* duktape.c */,
+				4B41467D1C93471F00E34E39 /* duktape.h */,
+				4B41463B1C93468700E34E39 /* AppDelegate.h */,
+				4B41463C1C93468700E34E39 /* AppDelegate.m */,
+				4B41463E1C93468700E34E39 /* ViewController.h */,
+				4B41463F1C93468700E34E39 /* ViewController.m */,
+				4B4146411C93468700E34E39 /* Main.storyboard */,
+				4B4146441C93468700E34E39 /* Assets.xcassets */,
+				4B4146461C93468700E34E39 /* LaunchScreen.storyboard */,
+				4B4146491C93468700E34E39 /* Info.plist */,
+				4B4146381C93468700E34E39 /* Supporting Files */,
+				4B4146801C9347C900E34E39 /* example.js */,
+				4B4146831C934F8100E34E39 /* JSManager.h */,
+				4B4146841C934F8100E34E39 /* JSManager.m */,
+			);
+			path = WatchDuktape;
+			sourceTree = "<group>";
+		};
+		4B4146381C93468700E34E39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B4146391C93468700E34E39 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B4146501C93468700E34E39 /* WatchDuktape WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4B4146511C93468700E34E39 /* Interface.storyboard */,
+				4B4146541C93468700E34E39 /* Assets.xcassets */,
+				4B4146561C93468700E34E39 /* Info.plist */,
+			);
+			path = "WatchDuktape WatchKit App";
+			sourceTree = "<group>";
+		};
+		4B41465F1C93468700E34E39 /* WatchDuktape WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4B4146621C93468700E34E39 /* InterfaceController.h */,
+				4B4146631C93468700E34E39 /* InterfaceController.m */,
+				4B4146651C93468700E34E39 /* ExtensionDelegate.h */,
+				4B4146661C93468700E34E39 /* ExtensionDelegate.m */,
+				4B4146681C93468700E34E39 /* NotificationController.h */,
+				4B4146691C93468700E34E39 /* NotificationController.m */,
+				4B41466B1C93468700E34E39 /* Assets.xcassets */,
+				4B41466D1C93468700E34E39 /* Info.plist */,
+				4B4146601C93468700E34E39 /* Supporting Files */,
+			);
+			path = "WatchDuktape WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4B4146601C93468700E34E39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B4146611C93468700E34E39 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B4146341C93468700E34E39 /* WatchDuktape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4146781C93468700E34E39 /* Build configuration list for PBXNativeTarget "WatchDuktape" */;
+			buildPhases = (
+				4B4146311C93468700E34E39 /* Sources */,
+				4B4146321C93468700E34E39 /* Frameworks */,
+				4B4146331C93468700E34E39 /* Resources */,
+				4B4146771C93468700E34E39 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B41464F1C93468700E34E39 /* PBXTargetDependency */,
+			);
+			name = WatchDuktape;
+			productName = WatchDuktape;
+			productReference = 4B4146351C93468700E34E39 /* WatchDuktape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B41464B1C93468700E34E39 /* WatchDuktape WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4146741C93468700E34E39 /* Build configuration list for PBXNativeTarget "WatchDuktape WatchKit App" */;
+			buildPhases = (
+				4B41464A1C93468700E34E39 /* Resources */,
+				4B4146731C93468700E34E39 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B41465E1C93468700E34E39 /* PBXTargetDependency */,
+			);
+			name = "WatchDuktape WatchKit App";
+			productName = "WatchDuktape WatchKit App";
+			productReference = 4B41464C1C93468700E34E39 /* WatchDuktape WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4B41465A1C93468700E34E39 /* WatchDuktape WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4146701C93468700E34E39 /* Build configuration list for PBXNativeTarget "WatchDuktape WatchKit Extension" */;
+			buildPhases = (
+				4B4146571C93468700E34E39 /* Sources */,
+				4B4146581C93468700E34E39 /* Frameworks */,
+				4B4146591C93468700E34E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchDuktape WatchKit Extension";
+			productName = "WatchDuktape WatchKit Extension";
+			productReference = 4B41465B1C93468700E34E39 /* WatchDuktape WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B41462D1C93468700E34E39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Big Fish Games, Inc";
+				TargetAttributes = {
+					4B4146341C93468700E34E39 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4B41464B1C93468700E34E39 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4B41465A1C93468700E34E39 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4B4146301C93468700E34E39 /* Build configuration list for PBXProject "WatchDuktape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B41462C1C93468700E34E39;
+			productRefGroup = 4B4146361C93468700E34E39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B4146341C93468700E34E39 /* WatchDuktape */,
+				4B41464B1C93468700E34E39 /* WatchDuktape WatchKit App */,
+				4B41465A1C93468700E34E39 /* WatchDuktape WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B4146331C93468700E34E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4146481C93468700E34E39 /* LaunchScreen.storyboard in Resources */,
+				4B4146811C9347C900E34E39 /* example.js in Resources */,
+				4B4146451C93468700E34E39 /* Assets.xcassets in Resources */,
+				4B4146431C93468700E34E39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B41464A1C93468700E34E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4146551C93468700E34E39 /* Assets.xcassets in Resources */,
+				4B4146531C93468700E34E39 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4146591C93468700E34E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B41466C1C93468700E34E39 /* Assets.xcassets in Resources */,
+				4B4146821C9347C900E34E39 /* example.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B4146311C93468700E34E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4146851C934F8100E34E39 /* JSManager.m in Sources */,
+				4B41467E1C93471F00E34E39 /* duktape.c in Sources */,
+				4B4146401C93468700E34E39 /* ViewController.m in Sources */,
+				4B41463D1C93468700E34E39 /* AppDelegate.m in Sources */,
+				4B41463A1C93468700E34E39 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4146571C93468700E34E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4146861C934F8100E34E39 /* JSManager.m in Sources */,
+				4B41467F1C93471F00E34E39 /* duktape.c in Sources */,
+				4B4146671C93468700E34E39 /* ExtensionDelegate.m in Sources */,
+				4B4146641C93468700E34E39 /* InterfaceController.m in Sources */,
+				4B41466A1C93468700E34E39 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B41464F1C93468700E34E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B41464B1C93468700E34E39 /* WatchDuktape WatchKit App */;
+			targetProxy = 4B41464E1C93468700E34E39 /* PBXContainerItemProxy */;
+		};
+		4B41465E1C93468700E34E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B41465A1C93468700E34E39 /* WatchDuktape WatchKit Extension */;
+			targetProxy = 4B41465D1C93468700E34E39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B4146411C93468700E34E39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4146421C93468700E34E39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B4146461C93468700E34E39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4146471C93468700E34E39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4B4146511C93468700E34E39 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4146521C93468700E34E39 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B41466E1C93468700E34E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B41466F1C93468700E34E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B4146711C93468700E34E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchDuktape WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigfishgames.WatchDuktape.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		4B4146721C93468700E34E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchDuktape WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigfishgames.WatchDuktape.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		4B4146751C93468700E34E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatchDuktape_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchDuktape WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigfishgames.WatchDuktape.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		4B4146761C93468700E34E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatchDuktape_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchDuktape WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigfishgames.WatchDuktape.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		4B4146791C93468700E34E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchDuktape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigfishgames.WatchDuktape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B41467A1C93468700E34E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchDuktape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigfishgames.WatchDuktape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B4146301C93468700E34E39 /* Build configuration list for PBXProject "WatchDuktape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B41466E1C93468700E34E39 /* Debug */,
+				4B41466F1C93468700E34E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4146701C93468700E34E39 /* Build configuration list for PBXNativeTarget "WatchDuktape WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4146711C93468700E34E39 /* Debug */,
+				4B4146721C93468700E34E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B4146741C93468700E34E39 /* Build configuration list for PBXNativeTarget "WatchDuktape WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4146751C93468700E34E39 /* Debug */,
+				4B4146761C93468700E34E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B4146781C93468700E34E39 /* Build configuration list for PBXNativeTarget "WatchDuktape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4146791C93468700E34E39 /* Debug */,
+				4B41467A1C93468700E34E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B41462D1C93468700E34E39 /* Project object */;
+}
