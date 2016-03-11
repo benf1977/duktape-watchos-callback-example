@@ -28,7 +28,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.bigfishgames.WatchDuktape</string>
+	<string>com.bflysoftware.WatchDuktape</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>
